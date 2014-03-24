@@ -8,7 +8,7 @@ then
 exit 1
 fi
 echo "Calling the parser..."
-python qifs_parser.py "$1";
+python smc_parser.py "$1";
 echo "Calling the counter..."
 ./main_qifs inter_input.txt
 echo "Finished. Please check the bounds in output.txt"
