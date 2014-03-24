@@ -16,11 +16,11 @@
 
   Basic documentation
   
-- qifs_lexer.py
+- smc_lexer.py
 
   The lexer file for SMC language. We use PLY library for parsing the input.
 
-- qifs_parser.py
+- smc_parser.py
 
    The main parser of SMC. This module reads and parses the input, converts to CNF and does other tasks as described in the paper. Finally it generates the intermediate language for further processing
    
