@@ -1,14 +1,15 @@
+#Note for insallation and run:
+- Install some python libraries: sympy (http://sympy.org/), ply (www.dabeaz.com/ply/).
+- Install Mathematica and Mathlink for Linux (www.wolfram.com/mathematica/).
+- The pcre_tohampi.pm is runnable with Perl-5.10.0, other versions of Perl we haven't tested yet. If you are using another version of Perl, you can switch to Perl-5.10 by using Perlbrew (http://perlbrew.pl/). Note that after installing perlbrew, you may want to add this line source ~/perl5/perlbrew/etc/bashrc to your .bashrc file
+- You also need JDK.
+
 #To compile
    make
    
 #To run SMC
    ./RunSMC inputfile
    
-#Note for insallation and run:
-- Install some python libraries: sympy, ply.
-- Install Mathematica and Mathlink for Linux.
-- The pcre_tohampi.pm is runnable with Perl-5.10.0, other versions of Perl we haven't tested yet.
-- You also need JDK.
 
 #Top-level directory structure
 - README
