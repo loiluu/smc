@@ -48,7 +48,12 @@
    Convert and translate pcre regexes to an intermediate language and transform to GFs domain.
    
 - automaton
+
    Handle regexes and automatons conversons.
+   
+- smc.conf
+
+   Includes serveral configurations for SMC.
 - config.h
    
    Configure the attributes of the tool.
