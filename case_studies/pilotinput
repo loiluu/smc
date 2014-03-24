@@ -1,0 +1,11 @@
+Information flow analysis has emerged as a key tool for understanding
+how well programs protect the confidentiality of sensitive data and
+prevent untrusted inputs from compromising security.  Early work on
+information flow analysis typically tried to provide absolute isolation
+between untrusted and trusted components. 
+
+Quantitative Information Flow (QIF) analysis was developed to quantify
+the amount of information leaked by programs.  The standard approach
+is to first classify the high security input into equivalence classes
+and then to apply model generation and counting techniques to
+calculate the information leakage.

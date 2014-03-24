@@ -1,0 +1,4 @@
+input
+ lowerBound: 0 
+ upperBound: 8*X^6 
+Running time 14650267

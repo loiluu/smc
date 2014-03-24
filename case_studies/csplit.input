@@ -1,0 +1,31 @@
+!input contains  "information" 
+!input contains  "z" 
+var_1=input.var_2 and var_2 = "z"
+!s contains  "information" 
+!s contains  "z" 
+var_3=var_1.s
+var_4=var_3.var_5 and var_5 = "z"
+var_6=var_4.s
+var_7=var_6.var_8 and var_8 = "z"
+var_9=var_7.s
+len (var_9)=206
+var_10=var_9.var_11 and var_11 = "information"
+!s1 contains  "z" 
+var_12=var_10.s1
+var_13=var_12.var_14 and var_14 = "z"
+var_15=var_13.s1
+var_16=var_15.var_17 and var_17 = "z"
+var_18=var_16.s1
+var_19=var_18.var_20 and var_20 = "z"
+var_21=var_19.s1
+var_22=var_21.var_23 and var_23 = "z"
+var_24=var_22.s1
+var_25=var_24.var_26 and var_26 = "z"
+var_27=var_25.s1
+var_28=var_27.var_29 and var_29 = "z"
+var_30=var_28.s1
+var_31=var_30.var_32 and var_32 = "z"
+var_33=var_31.s1
+var_34=var_33.var_35 and var_35 = "z"
+len (var_34)=629
+query var_34

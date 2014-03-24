@@ -1,0 +1,9 @@
+a1 = "POST"
+allstring a2
+a = a1.a2
+c = "content-length:a-800"
+d1 = "Cookie:"
+d = d1.a2
+b = c.d
+S = a.b
+query S

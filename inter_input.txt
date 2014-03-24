@@ -1,0 +1,65 @@
+30
+0 var_i
+9 information
+0 s
+1 
+3 information
+1 
+3 z
+0 var_z
+9 z
+0 var_1
+6 s var_z
+0 var_3
+6 var_1 s
+0 var_4
+6 var_3 var_z
+0 var_6
+6 var_4 s
+0 var_7
+6 var_6 var_z
+0 var_9
+6 var_7 s
+0 var_10
+6 var_9 var_i
+0 var_12
+6 var_10 s
+0 var_13
+6 var_12 var_z
+0 var_15
+6 var_13 s
+0 var_16
+6 var_15 var_z
+0 var_18
+6 var_16 s
+0 var_19
+6 var_18 var_z
+0 var_21
+6 var_19 s
+0 var_22
+6 var_21 var_z
+0 var_24
+6 var_22 s
+0 var_25
+6 var_24 var_i
+0 var_27
+6 var_25 s
+0 var_28
+6 var_27 var_z
+0 var_30
+6 var_28 s
+0 var_31
+6 var_30 var_z
+0 var_33
+6 var_31 s
+0 var_34
+6 var_33 var_z
+0 var_36
+6 var_34 s
+0 var_37
+6 var_36 var_i
+0 var_39
+6 var_37 s
+0 var_final
+6 var_39 var_z
+11 0

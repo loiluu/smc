@@ -1,0 +1,8 @@
+cfg _flax3 :=  ;
+cfg _q2 := \097 ;
+cfg _flax2 :=  _flax3 |  _q2 ;
+cfg _q3 := \098 ;
+cfg _flax1 :=  _flax2 |  _q3 ;
+cfg _q4 := (_flax1)*;
+cfg _q1 :=  _q4 ;
+cfg _flax0 := _q1;

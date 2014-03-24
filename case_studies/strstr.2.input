@@ -1,0 +1,2 @@
+(input strstr "ab" 2)
+query input

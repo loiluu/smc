@@ -1,0 +1,3 @@
+!(input contains "z")
+!(input contains "Z")
+query input

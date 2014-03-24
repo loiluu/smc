@@ -1,0 +1,32 @@
+var_z = "z"
+var_i = "information"
+! (s contains "information")
+!(s contains "z")
+var_1 = s.var_z
+var_3 = var_1.s
+var_4 = var_3.var_z
+var_6 = var_4.s
+var_7 = var_6.var_z
+var_9=var_7.s
+var_10=var_9.var_i
+var_12=var_10.s
+var_13=var_12.var_z
+var_15=var_13.s
+var_16=var_15.var_z
+var_18=var_16.s
+var_19=var_18.var_z
+var_21=var_19.s
+var_22=var_21.var_z
+var_24=var_22.s
+var_25=var_24.var_i
+var_27=var_25.s
+var_28=var_27.var_z
+var_30=var_28.s
+var_31=var_30.var_z
+var_33=var_31.s
+var_34=var_33.var_z
+var_36=var_34.s
+var_37=var_36.var_i
+var_39=var_37.s
+var_final=var_39.var_z
+query var_final

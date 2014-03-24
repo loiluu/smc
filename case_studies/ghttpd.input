@@ -1,0 +1,14 @@
+var_1 = "GETz"
+!var_2 contains "z"
+!var_2 contains "host:"
+var_3="z"
+!var_4  contains "host:"
+var_51 = "host:"
+allstring var_52
+var_5 = var_51.var_52
+var_6 = var_1.var_2
+var_7 = var_3.var_4
+var_8 = var_6.var_7
+input = var_8.var_5
+len(input) = 620
+query input
