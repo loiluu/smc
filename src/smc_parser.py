@@ -243,7 +243,7 @@ def getConstraintList(cnflist, var):
 parser = yacc.yacc(start='formula')
 
 if __name__ == "__main__":
-    input_file = "qifs_input.txt"
+    input_file = "smc_input.txt"
     if len(sys.argv) > 1:
         input_file = sys.argv[1]
     f = open(input_file)

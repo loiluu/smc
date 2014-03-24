@@ -17,7 +17,7 @@ void complete_compute_OR(CONFIGURE *conf, MLINK lp, bounds* input, int upper);
 void computeOR(CONFIGURE *conf, MLINK lp, FILE *file, bounds* return_results, bounds vars[], int i);
 
 int main(int argc, char *argv[]){
-   //get configuration from qifs.conf
+   //get configuration from smc.conf
    CONFIGURE *conf = malloc(sizeof(CONFIGURE));
    read_configuration(conf);
    print_configuration(conf);
