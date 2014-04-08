@@ -1,21 +1,37 @@
-#Note for insallation and run
+## Note for insallation and run
 - Install some python libraries: sympy (http://sympy.org/), ply (www.dabeaz.com/ply/).
 - Install Mathematica and Mathlink for Linux (www.wolfram.com/mathematica/).
 - The pcre_tohampi.pm is runnable with Perl-5.10.0, other versions of Perl we haven't tested yet. If you are using another version of Perl, you can switch to Perl-5.10 by using Perlbrew (http://perlbrew.pl/). Note that after installing perlbrew, you may want to add this line "source ~/perl5/perlbrew/etc/bashrc" to your .bashrc file
-- You also need JDK.
+- You also need openjdk (either version 6 or 7 works, http://openjdk.java.net) 
 
-#To compile
+## To compile
    make
    
-#To run SMC
+## To run SMC
    ./RunSMC inputfile
    
 
-#Top-level directory structure
+## Top-level directory structure
+
 - README
 
   Basic documentation
-  
+
+### case_studies
+   Includes several input/output of what we reported in our paper
+
+### src
+Source folder
+
+1. automaton
+
+   Handle regexes and automatons conversons.
+   
+2. YAPE
+   Comes with regex library of HAMPI
+   
+3. Other files
+
 - smc_lexer.py
 
   The lexer file for SMC language. We use PLY library for parsing the input.
@@ -48,17 +64,15 @@
 
    Convert and translate pcre regexes to an intermediate language and transform to GFs domain.
    
-- automaton
+- smc.conf, smc.kaluza.conf, smc.cs
 
-   Handle regexes and automatons conversons.
+   Includes serveral configurations for SMC in default, kaluza testcase and case studies respectively. You can configure **MAXN** - the maximum length of string, or the optimization options of concat operator.
    
-- smc.conf
-
-   Includes serveral configurations for SMC.
 - config.h
    
    Configure the attributes of the tool.
    
-- rawutils.py, rawparser.py, rawlexer.py
+- rawutils.py, raw_to_smc_parser.py, raw_to_smc_lexer.py
+   
    Translate C String operators, like strcasestr, strlen,... to SMC language.
    
