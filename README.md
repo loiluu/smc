@@ -21,8 +21,9 @@ Go to `src` folder and run `make`
    
 ## Replicating the results
 
-1. 	Case Studies & Comparison (Section 4.2, 4.3, Table 5)	
-	Run the script test_utilities.sh
+ - Case Studies & Comparison (Section 4.2, 4.3, Table 5)
+   
+Run the script test_utilities.sh
 	
 	```
 	$ ./test_utilities.sh
@@ -44,11 +45,11 @@ Source folder
 
 1. automaton
 
-Handles regexes and automatons conversons.
+	Handles regexes and automatons conversons.
    
 2. YAPE
    
-Comes with regex library of HAMPI
+	Comes with regex library of HAMPI
    
 3. Other files
 
