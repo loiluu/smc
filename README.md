@@ -5,11 +5,27 @@
 - You also need openjdk (either version 6 or 7 works, http://openjdk.java.net)
 
 ## To compile
-   make
+	Go to `src` folder and run `make`
+	```	
+	$ cd src
+	$ make
+	```
    
 ## To run SMC
+   ```
    ./RunSMC inputfile
+   ```
    
+## Replicating the results
+
+1. 	Case Studies & Comparison (Section 4.2, 4.3, Table 5)	
+	Run the script test_utilities.sh
+	$ ./test_utilities.sh
+	
+	Output reported on console:
+		- composition of constraints
+		- time
+		- bounds
 
 ## Top-level directory structure
 
@@ -41,6 +57,7 @@ Source folder
    Contains main data structures for the parsing & inital processing steps.
    
 - utils.py
+
    Contains main utilities for the parsing & inital processing steps. For example, we translalte the constraints to CNF form, build the concat dependency graph and export the constraint to intermediate constraint language in this file, which are called by smc_parser.py above.
 
 - main.c
