@@ -8,10 +8,10 @@
 
 Go to `src` folder and run `make`
 	
-	```	
+	
 	$ cd src
 	$ make
-	```
+	
    
 ## To run SMC
 
@@ -29,9 +29,10 @@ Go to `src` folder and run `make`
 	```
 
 	Output reported on console:
-		- composition of constraints
-		- time
-		- bounds
+	
+	- composition of constraints
+	- time
+	- bounds
 
 ## Top-level directory structure
 
