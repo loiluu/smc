@@ -44,10 +44,11 @@ Source folder
 
 1. automaton
 
-   Handles regexes and automatons conversons.
+Handles regexes and automatons conversons.
    
 2. YAPE
-   Comes with regex library of HAMPI
+   
+Comes with regex library of HAMPI
    
 3. Other files
 
