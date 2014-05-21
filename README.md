@@ -5,13 +5,16 @@
 - You also need openjdk (either version 6 or 7 works, http://openjdk.java.net)
 
 ## To compile
-	Go to `src` folder and run `make`
+
+Go to `src` folder and run `make`
+	
 	```	
 	$ cd src
 	$ make
 	```
    
 ## To run SMC
+
    ```
    ./RunSMC inputfile
    ```
@@ -20,8 +23,11 @@
 
 1. 	Case Studies & Comparison (Section 4.2, 4.3, Table 5)	
 	Run the script test_utilities.sh
-	$ ./test_utilities.sh
 	
+	```
+	$ ./test_utilities.sh
+	```
+
 	Output reported on console:
 		- composition of constraints
 		- time
