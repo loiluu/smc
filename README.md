@@ -1,8 +1,9 @@
 ## Note for insallation and run
 - Install some python libraries: sympy (http://sympy.org/), ply (www.dabeaz.com/ply/).
-- Install Mathematica and Mathlink for Linux (www.wolfram.com/mathematica/).
+- Install Mathematica and Mathlink for Linux (www.wolfram.com/mathematica/ and http://reference.wolfram.com/mathematica/tutorial/MathLinkDeveloperGuide-Unix.html).
 - The pcre_tohampi.pm is runnable with Perl-5.10.0, other versions of Perl we haven't tested yet. If you are using another version of Perl, you can switch to Perl-5.10 by using Perlbrew (http://perlbrew.pl/). Note that after installing perlbrew, you may want to add this line "source ~/perl5/perlbrew/etc/bashrc" to your .bashrc file
-- You also need openjdk (either version 6 or 7 works, http://openjdk.java.net)
+- You also need openjdk (either version 6 or 7 works, http://openjdk.java.net).
+- It works on Linux OS only, Windows and other OSes are not supported.
 
 ## To compile
 
@@ -49,7 +50,7 @@ Source folder
    
 2. YAPE
    
-	Comes with regex library of HAMPI
+	Comes with regex library of HAMPI[2]
    
 3. Other files
 
@@ -91,7 +92,7 @@ Source folder
    
 - smc.conf, smc.kaluza.conf, smc.cs
 
-   Includes serveral configurations for SMC in default, kaluza testcase and case studies respectively. You can configure **MAXN** - the maximum length of string, **ALPHABET_SIZE** - the number of character in alphabets, or the optimization options of concat operator.
+   Includes serveral configurations for SMC in default, kaluza testcase and case studies respectively. You can configure **MAXN** - the maximum length of string, **ALPHABET_SIZE** - the number of characters in alphabet, or the optimization options of concat operator.
    
 - config.h
    
@@ -103,6 +104,7 @@ Source folder
 
 ## References
 - [1] A Symbolic Execution Framework for JavaScript. Prateek Saxena, Devdatta Akhawe, Steve Hanna, Stephen McCamant, Feng Mao, Dawn Song. 31st IEEE Symposium on Security and Privacy (Oakland 2010), May 2010.
+- [2] http://people.csail.mit.edu/akiezun/hampi/
 
 
 
