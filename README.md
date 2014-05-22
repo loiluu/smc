@@ -106,6 +106,17 @@ Source folder
 - [1] A Symbolic Execution Framework for JavaScript. Prateek Saxena, Devdatta Akhawe, Steve Hanna, Stephen McCamant, Feng Mao, Dawn Song. 31st IEEE Symposium on Security and Privacy (Oakland 2010), May 2010.
 - [2] http://people.csail.mit.edu/akiezun/hampi/
 
+## Others
+- SMC is maintained by Loi Luu (loi.luuthe@gmail.com). Any comments/question please feel free to drop me an email. You can also report bug through email or here on github.
+- We prepare a running VM for SMC hosted on our ftp server. It can be download from:
+	
+	```
+ 	ftp://smc-dev@andromeda.d2.comp.nus.edu.sg/
+    	
+	Username: smc-dev
+    	
+	Password: 73muqJuCw3
+	```
 
 
 
