@@ -92,13 +92,13 @@ Source folder
    
 - smc.conf, smc.kaluza.conf, smc.cs
 
-   Includes serveral configurations for SMC in default, kaluza testcase and case studies respectively. You can configure **MAXN** - the maximum length of string, **ALPHABET_SIZE** - the number of characters in alphabet, or the optimization options of concat operator.
+   Includes serveral configurations for SMC in default, kaluza testcase and case studies respectively. You can configure **MAXN** - the maximum length of string, **ALPHABET\_SIZE** - the number of characters in alphabet, or the optimization options of concat operator.
    
 - config.h
    
    Consists of several consts of the tool.
    
-- rawutils.py, raw\_to\_smc_parser.py, raw\_to\_smc\_lexer.py
+- rawutils.py, raw\_to\_smc\_parser.py, raw\_to\_smc\_lexer.py
    
    Translate C String operators, like strcasestr, strlen,... to SMC language. The translation was mentioned in previous work [1], we just self-implemented it again here.
 
@@ -107,15 +107,13 @@ Source folder
 - [2] http://people.csail.mit.edu/akiezun/hampi/
 
 ## Others
-- SMC is maintained by Loi Luu (loi.luuthe@gmail.com). Any comments/question please feel free to drop me an email. You can also report bug through email or here on github.
-- We prepare a running VM for SMC hosted on our ftp server. It can be download from:
+- SMC is maintained by Loi Luu (loiluu@comp.nus.edu.sg). Should you have any comments/questions, please feel free to drop me an email. You can also report bug through email or here on github.
+- We prepare a running VM for SMC hosted on our ftp server. It can be downloaded from:
 	
 	```
- 	ftp://smc-dev@andromeda.d2.comp.nus.edu.sg/
-    	
-	Username: smc-dev
-    	
-	Password: 73muqJuCw3
+ 	ftp://andromeda.d2.comp.nus.edu.sg/www/smc-dev_compressed.vdi.tar.gz
+	Username: smc
+	Password: smc@nus
 	```
 
 
