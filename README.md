@@ -108,12 +108,13 @@ Source folder
 
 ## Others
 - SMC is maintained by Loi Luu (loiluu@comp.nus.edu.sg). Should you have any comments/questions, please feel free to drop me an email. You can also report bug through email or here on github.
-- We prepare a running VM for SMC hosted on our ftp server. It can be downloaded from:
+- We prepared a running VM for SMC hosted on our ftp server. It can be downloaded from:
 	
 	```
  	ftp://andromeda.d2.comp.nus.edu.sg/www/smc-dev_compressed.vdi.tar.gz
 	Username: smc
 	Password: smc@nus
+	Ubuntu password: 123456
 	```
 
 
