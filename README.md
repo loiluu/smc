@@ -38,6 +38,10 @@ Go to `src` folder and run `make`
 
 ## Top-level directory structure
 
+#### test_utilities.sh
+The script to runs all case studies in the paper
+#### smc_kaluza.zip
+SMC's Inputs/ Outputs for Kaluza benchmark
 ### case_studies
    Includes several input/output of what we reported in our paper
 
